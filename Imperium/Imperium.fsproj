@@ -49,6 +49,9 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MailboxProcessor.fs" />
+    <Compile Include="Http.fs" />
+    <Compile Include="IOUtils.fs" />
     <Compile Include="Server.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
